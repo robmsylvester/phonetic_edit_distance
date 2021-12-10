@@ -1,0 +1,42 @@
+*.pyc
+.vscode/
+
+# Jupyter Notebook
+.DS_Store
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/*
+.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# no notebooks, defaulting to sample scripts instead
+*.ipynb
+
+# Local files for experiments for Rob.
+experiments/*
